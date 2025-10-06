@@ -154,7 +154,7 @@ export const Ixian: Story = {
 export const Ordos: Story = {
   args: {
     image: 'image/texture/015.jpg',
-    colors: ['#3A4491', '101D65'],
+    colors: ['#007d55', '#094e2eff'],
     opacity: 50,
     strength: 0,
   },
@@ -163,7 +163,7 @@ export const Ordos: Story = {
 export const BeneGesserit: Story = {
   args: {
     image: 'image/texture/020.jpg',
-    colors: ['#11724dff', '#085233ff'],
+    colors: ['#3A4491', '#101D65'],
     opacity: 150,
     strength: -100,
   },
