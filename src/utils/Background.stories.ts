@@ -151,6 +151,15 @@ export const Ixian: Story = {
   },
 };
 
+export const Ordos: Story = {
+  args: {
+    image: 'image/texture/015.jpg',
+    colors: ['#3A4491', '101D65'],
+    opacity: 50,
+    strength: 0,
+  },
+};
+
 export const BeneGesserit: Story = {
   args: {
     image: 'image/texture/020.jpg',
