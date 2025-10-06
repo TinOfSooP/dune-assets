@@ -163,7 +163,7 @@ export const Ordos: Story = {
 export const BeneGesserit: Story = {
   args: {
     image: 'image/texture/020.jpg',
-    colors: ['#3A4491', '#101D65'],
+    colors: ['#11724dff', '#085233ff'],
     opacity: 150,
     strength: -100,
   },
