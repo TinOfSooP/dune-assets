@@ -119,6 +119,13 @@ export const CHOAM: Story = {
   },
 };
 
+export const Ordos: Story = {
+  args: {
+    background: `url('/generated/utils/background/Ordos.jpg') top left / cover no-repeat`,
+    image: 'vector/logo/ordos.svg',
+  },
+};
+
 export const Moritani: Story = {
   args: {
     background: `url('/generated/utils/background/moritani.jpg') top left / cover no-repeat`,
