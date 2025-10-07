@@ -25,7 +25,7 @@ export const Ammon: Story = {
   args: {
     background: `url('/generated/utils/background/ordos.jpg') top left / cover no-repeat`,
     image: 'image/leader/korba.png',
-    logo: 'vector/logo/atreides.svg',
+    logo: 'vector/logo/ordos.svg',
     name: 'Ammon',
     strength: '1',
   },

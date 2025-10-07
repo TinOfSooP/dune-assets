@@ -269,6 +269,7 @@ export const LOGO = z.enum([
   'vector/logo/iduali.svg',
   'vector/logo/ixian.svg',
   'vector/logo/moritani.svg',
+  'vector/logo/ordos.svg',
   'vector/logo/richese.svg'
 ]);
 
@@ -967,6 +968,7 @@ export const GENERATED = z.enum([
   'generated/token/leader/emperor/hero.jpg',
   'generated/token/leader/fremen/chani.jpg',
   'generated/token/leader/fremen/hero.jpg',
+  'generated/token/leader/fremen/jamis.jpg',
   'generated/token/leader/fremen/otheym.jpg',
   'generated/token/leader/fremen/shadout-mapes.jpg',
   'generated/token/leader/fremen/stilgar.jpg',
@@ -1084,6 +1086,7 @@ export const GENERATED = z.enum([
   'generated/utils/background/linear-3.jpg',
   'generated/utils/background/moritani.jpg',
   'generated/utils/background/moss.jpg',
+  'generated/utils/background/ordos.jpg',
   'generated/utils/background/radial-1.jpg',
   'generated/utils/background/radial-2.jpg',
   'generated/utils/background/richese.jpg',

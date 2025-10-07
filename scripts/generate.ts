@@ -5,8 +5,11 @@ import { recursiveReaddirFiles } from 'recursive-readdir-files';
 
 async function getFiles(path: string) {
   const files = await readdir(join(import.meta.dirname, '..', 'public', path));
-  return files.filter((f) => !f.startsWith('.')).map((file) => join(path, file));
+  return files
+    .filter((f) => !f.startsWith('.'))
+    .map((file) => join(path, file).replace(/\\/g, '/')); // normalize slashes
 }
+
 
 // images
 const leaders = await getFiles('image/leader');
@@ -20,7 +23,7 @@ const troop = await getFiles('vector/troop');
 const troop_modifier = await getFiles('vector/troop_modifier');
 
 const generated = (await recursiveReaddirFiles(join(import.meta.dirname, '..', 'generated')))
-  .map((f) => relative(join(import.meta.dirname, '..'), f.path))
+  .map((f) => relative(join(import.meta.dirname, '..'), f.path).replace(/\\/g, '/'))
   .filter((f) => f.match(/\.(png|jpg|pdf)$/));
 
 const enums = {
